@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+    
+    <!-- Useful meta tags -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="robots" content="index, follow">
+    <meta name="google" content="notranslate">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="">
+    
+    <title>Works</title>
+</head>
+<body>
+
+    <div class="page" id="page">
+        <!-- Header -->
+        <header class="header">
+          <div class="header__left">
+            <nav class="nav">
+              <ul class="nav__list">
+                <li class="nav__item">
+                  <a class="nav__link" href="index.html">Главная</a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link has-subnav" href="post.html">Статьи</a>
+        
+                  <ul class="subnav">
+                    <li>
+                      <a class="subnav__link" href="post.html">Создание сайтов</a>
+                    </li>
+                    <li>
+                      <a class="subnav__link" href="post.html">Юмор</a>
+                    </li>
+                    <li>
+                      <a class="subnav__link" href="post.html">Релокейт</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="text.html">Обо мне</a>
+                </li>
+              </ul>
+            </nav>
+        
+            <button class="burger" type="button" id="sidebarToggle">
+              <span>Открыть навигацию</span>
+            </button>
+          </div>
+        
+          <div class="header__right">
+            <nav class="nav">
+              <ul class="nav__list">
+                <li class="nav__item">
+                  <a class="nav__link" href="profile.html">Профиль</a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="signup.html">Выйти</a>
+                </li>
+              </ul>
+            </nav>
+        
+            <form class="search" action="search.html" method="get">
+              <input class="search__input" type="text" placeholder="Поиск по блогу" />
+            </form>
+          </div>
+        </header>
+
+        <!-- Sidebar -->
+        <aside class="sidebar" id="sidebar">
+          <div class="sidebar__header">
+            <img src="assets/images/sidebar-header.jpg" alt="" />
+          </div>
+        
+          <div class="sidebar__content">
+            <div class="profile">
+              <img class="profile__avatar" src="../assets/images/sidebar_avatar.jpg" alt="" />
+              <div class="profile__header">
+                <div class="profile__name">Воробьёв Вячеслав</div>
+                <div class="profile__prof">блог front-end разработчика</div>
+              </div>
+        
+              <ul class="social">
+                <li class="social__item">
+                  <a class="social__link" href="https://instagram.com/_web._.pro.grammer_" target="_blank">
+                    <img src="assets/images/instagram.svg" alt="Воробьёв Вячеслав instagram" />
+                  </a>
+                </li>
+                <li class="social__item">
+                  <a class="social__link" href="https://vk.com/web_programmer2020" target="_blank">
+                    <img src="assets/images/vk.svg" alt="Воробьёв Вячеслав vk" />
+                  </a>
+                </li>
+                <li class="social__item">
+                  <a class="social__link" href="https://github.com/desmond333" target="_blank">
+                    <img src="assets/images/github.svg" alt="Воробьёв Вячеслав github" />
+                  </a>
+                </li>
+              </ul>
+        
+              <div class="profile__text">
+                <p>
+                  Front-end разработчик. Практик верстки сайтов, react-developer. Мои навыки:
+                  <br />
+                  • HTML5, CSS3, кроссбраузерность и адаптивная верстка, SASS/SCSS, grid/flexbox, Gulp, БЭМ
+                  <br />
+                  • JavaScript (ES6+)
+                  <br />
+                  • React + Redux
+                  <br />
+                  • Git
+                </p>
+              </div>
+            </div>
+            <!-- /.profile -->
+        
+            <nav class="nav nav--mobile">
+              <ul class="nav__list">
+                <li class="nav__item">
+                  <a class="nav__link" href="index.html">Главная</a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link has-subnav" href="#">Статьи</a>
+        
+                  <ul class="subnav">
+                    <li>
+                      <a class="subnav__link" href="#">Создание сайтов</a>
+                    </li>
+                    <li>
+                      <a class="subnav__link" href="#">Интернет-маркетинг</a>
+                    </li>
+                    <li>
+                      <a class="subnav__link" href="#">Продвижение видео</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="text.html">Обо мне</a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="text.html">Реклама</a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="profile.html">Профиль</a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="#">Выйти</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <!-- /.sidebar__content -->
+        
+          <div class="sidebar__footer">
+            <a class="btn btn--red" href="works.html">Мои работы</a>
+            <button class="btn btn--blue" type="button" data-modal="contact-modal">Написать мне</button>
+          </div>
+        </aside>
+
+        <!-- Main -->
+        <main class="main">
+            <div class="container">
+                
+                <h1 class="page__title">Мои работы</h1>
+                
+                <article class="work">
+                  <div class="work__preview">
+                    <a
+                      href="https://desmond333.github.io/to-do-list-on-native-javascript/"
+                      class="work__preview-link"
+                      target="_blank"
+                    >
+                      <div class="work__preview-popup"><img src="./assets/images/works/gotosite.gif" /></div>
+                      <picture>
+                        <source srcset="assets/images/works/todolist_mobile.png" media="(max-width: 575px)" />
+                        <img src="assets/images/works/todolist.png" alt="" />
+                      </picture>
+                    </a>
+                  </div>
+                
+                  <div class="work__content">
+                    <h2 class="work__title">
+                      <a href="#" target="_blank">To do list</a>
+                    </h2>
+                
+                    <div class="work__description">
+                      <p>
+                        To Do — отличный помощник, когда вам нужно упорядочить свои повседневные дела, понять, чем
+                        нужно заняться в первую очередь, и выделить самые важные задачи.
+                      </p>
+                    </div>
+                
+                    <ul class="tags">
+                      <li class="tags__item">#HTML5</li>
+                      <li class="tags__item">#CSS3</li>
+                      <li class="tags__item">#ES6</li>
+                    </ul>
+                
+                    <div class="work__footer">
+                      <a
+                        class="btn btn--blue btn--rounded btn--sm"
+                        href="https://desmond333.github.io/to-do-list-on-native-javascript/"
+                        target="_blank"
+                        >Перейти на сайт</a
+                      >
+                    </div>
+                  </div>
+                </article>
+                <!--work-->
+                
+                <article class="work">
+                  <div class="work__preview">
+                    <a href="https://desmond333.github.io/cyber/#/users" class="work__preview-link" target="_blank">
+                      <div class="work__preview-popup"><img src="./assets/images/works/gotosite.gif" /></div>
+                      <picture>
+                        <source srcset="assets/images/works/social_network_mobile.png" media="(max-width: 575px)" />
+                        <img src="assets/images/works/social_network.png" alt="" />
+                      </picture>
+                    </a>
+                  </div>
+                
+                  <div class="work__content">
+                    <h2 class="work__title">
+                      <a href="#" target="_blank">Social network</a>
+                    </h2>
+                
+                    <div class="work__description">
+                      <p>
+                        Social network — онлайн-платформа, которая используется для общения, знакомств, создания
+                        социальных отношений между людьми, которые имеют схожие интересы или офлайн-связи, а также
+                        для развлечения и работы.
+                      </p>
+                    </div>
+                
+                    <ul class="tags">
+                      <li class="tags__item">#HTML5</li>
+                      <li class="tags__item">#CSS3</li>
+                      <li class="tags__item">#ES6</li>
+                      <li class="tags__item">#REACT</li>
+                      <li class="tags__item">#REDUX</li>
+                    </ul>
+                
+                    <div class="work__footer">
+                      <a
+                        class="btn btn--blue btn--rounded btn--sm"
+                        href="https://desmond333.github.io/cyber/#/users"
+                        target="_blank"
+                        >Перейти на сайт</a
+                      >
+                    </div>
+                  </div>
+                </article>
+                <!--work-->
+                
+                <article class="work">
+                  <div class="work__preview">
+                    <a
+                      href="https://desmond333.github.io/i_am_exploring_grid/?name=&name=&name=#"
+                      class="work__preview-link"
+                      target="_blank"
+                    >
+                      <div class="work__preview-popup"><img src="./assets/images/works/gotosite.gif" /></div>
+                      <picture>
+                        <source srcset="assets/images/works/just_landing_mobile.png" media="(max-width: 575px)" />
+                        <img src="assets/images/works/just_landing.png" alt="" />
+                      </picture>
+                    </a>
+                  </div>
+                
+                  <div class="work__content">
+                    <h2 class="work__title">
+                      <a href="#" target="_blank">Just landing page</a>
+                    </h2>
+                
+                    <div class="work__description">
+                      <p>
+                        Landing page — это всегда одностраничный сайт, который призывает к какому-либо одному
+                        действию. Его основной задачей является сбор контактных данных целевой аудитории. Переход на
+                        landing page часто осуществляется из социальных медиа, email-рассылок и рекламных кампаний в
+                        поисковых системах.
+                      </p>
+                    </div>
+                
+                    <ul class="tags">
+                      <li class="tags__item">#HTML5</li>
+                      <li class="tags__item">#CSS3</li>
+                      <li class="tags__item">#ES6</li>
+                    </ul>
+                
+                    <div class="work__footer">
+                      <a
+                        class="btn btn--blue btn--rounded btn--sm"
+                        href="https://desmond333.github.io/i_am_exploring_grid/?name=&name=&name=#"
+                        target="_blank"
+                        >Перейти на сайт</a
+                      >
+                    </div>
+                  </div>
+                </article>
+                <!--work-->
+                
+                <article class="work">
+                  <div class="work__preview">
+                    <a href="https://desmond-portfolio.netlify.app/" class="work__preview-link" target="_blank">
+                      <div class="work__preview-popup"><img src="./assets/images/works/gotosite.gif" /></div>
+                      <picture>
+                        <source srcset="assets/images/works/portfolio_website_mobile.png" media="(max-width: 575px)" />
+                        <img src="assets/images/works/portfolio_website.png" alt="" />
+                      </picture>
+                    </a>
+                  </div>
+                
+                  <div class="work__content">
+                    <h2 class="work__title">
+                      <a href="#" target="_blank">Portfolio website</a>
+                    </h2>
+                
+                    <div class="work__description">
+                      <p>
+                        Зачем нужен сайт-портфолио? В первую очередь он необходим людям творческих профессий,
+                        которые занимаются любимым делом и хотят показать свои работы будущим работодателям.
+                      </p>
+                    </div>
+                
+                    <ul class="tags">
+                      <li class="tags__item">#REACT</li>
+                      <li class="tags__item">#GATSBY</li>
+                    </ul>
+                
+                    <div class="work__footer">
+                      <a
+                        class="btn btn--blue btn--rounded btn--sm"
+                        href="https://desmond-portfolio.netlify.app/"
+                        target="_blank"
+                        >Перейти на сайт</a
+                      >
+                    </div>
+                  </div>
+                </article>
+                <!--work-->
+                
+            </div>
+        </main>
+    </div>
+
+
+    <div class="modal" id="story-modal">
+        <div class="modal__content  modal__content--story">
+            <video class="modal__video" src="" poster="../assets/images/stories/stories-video-modal.png"></video>
+        </div>
+    </div>
+    <div class="modal" id="contact-modal">
+        <div class="modal__content  modal__content--contact">
+            <button class="modal__close" type="button">
+                <img src="assets/images/close.svg" alt="Закрыть">
+            </button>
+    
+            <form class="form" action="/" method="post">
+                <div class="form__group  form__group--md">
+                    <input class="form__control" type="text" placeholder="Ваше имя">
+                    <span class="form__line"></span>
+                </div>
+    
+                <div class="form__group  form__group--md">
+                    <input class="form__control" type="email" placeholder="Ваш e-mail">
+                    <span class="form__line"></span>
+                </div>
+    
+                <div class="form__group  form__group--md">
+                    <textarea class="form__control  form__control--textarea" placeholder="Текст сообщения"></textarea>
+                    <span class="form__line"></span>
+                </div>
+    
+                <div class="form__footer">
+                    <div class="form__group  form__group--md">
+                        <button class="btn  btn--blue  btn--rounded  btn--sm" type="submit">Отправить</button>
+                    </div>
+                </div>
+            </form>
+    
+            <ul class="modal__footer">
+                <li>
+                    e-mail: <a href="my_post_office1@mail.ru">my_post_office1@mail.ru</a>
+                </li>
+                <li>
+                    тел: <a href="tel:89029472557">8 902 947 25 57</a>
+                </li>
+            </ul>
+        </div><!-- /.modal__content -->
+    </div><!-- /.modal -->
+    <div class="modal">
+        <div class="modal__content">
+            <button class="modal__close" type="button">
+                <img src="assets/images/close.svg" alt="Закрыть">
+            </button>
+    
+            <ul class="social">
+                <li class="social__item">
+                    <a class="social__link" href="#">
+                        <img src="assets/images/share/facebook.svg" alt="">
+                    </a>
+                </li>
+    
+                <li class="social__item">
+                    <a class="social__link" href="#">
+                        <img src="assets/images/share/twitter.svg" alt="">
+                    </a>
+                </li>
+    
+                <li class="social__item">
+                    <a class="social__link" href="#">
+                        <img src="assets/images/share/vk.svg" alt="">
+                    </a>
+                </li>
+    
+                <li class="social__item">
+                    <a class="social__link" href="#">
+                        <img src="assets/images/share/copy.svg" alt="">
+                    </a>
+                </li>
+            </ul>
+    
+        </div><!-- /.modal__content -->
+    </div><!-- /.modal -->
+    
+    
+
+    <!-- JS -->
+    <script src="assets/js/app.js"></script>
+</body>
+</html>

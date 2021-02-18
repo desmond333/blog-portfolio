@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+    
+    <!-- Useful meta tags -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="robots" content="index, follow">
+    <meta name="google" content="notranslate">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="">
+    
+    <title>Home</title>
+</head>
+<body>
+
+    <div class="page" id="page">
+        <!-- Header -->
+        <header class="header">
+          <div class="header__left">
+            <nav class="nav">
+              <ul class="nav__list">
+                <li class="nav__item">
+                  <a class="nav__link" href="index.html">Главная</a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link has-subnav" href="post.html">Статьи</a>
+        
+                  <ul class="subnav">
+                    <li>
+                      <a class="subnav__link" href="post.html">Создание сайтов</a>
+                    </li>
+                    <li>
+                      <a class="subnav__link" href="post.html">Юмор</a>
+                    </li>
+                    <li>
+                      <a class="subnav__link" href="post.html">Релокейт</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="text.html">Обо мне</a>
+                </li>
+              </ul>
+            </nav>
+        
+            <button class="burger" type="button" id="sidebarToggle">
+              <span>Открыть навигацию</span>
+            </button>
+          </div>
+        
+          <div class="header__right">
+            <nav class="nav">
+              <ul class="nav__list">
+                <li class="nav__item">
+                  <a class="nav__link" href="profile.html">Профиль</a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="signup.html">Выйти</a>
+                </li>
+              </ul>
+            </nav>
+        
+            <form class="search" action="search.html" method="get">
+              <input class="search__input" type="text" placeholder="Поиск по блогу" />
+            </form>
+          </div>
+        </header>
+
+        <!-- Sidebar -->
+        <aside class="sidebar" id="sidebar">
+          <div class="sidebar__header">
+            <img src="assets/images/sidebar-header.jpg" alt="" />
+          </div>
+        
+          <div class="sidebar__content">
+            <div class="profile">
+              <img class="profile__avatar" src="../assets/images/sidebar_avatar.jpg" alt="" />
+              <div class="profile__header">
+                <div class="profile__name">Воробьёв Вячеслав</div>
+                <div class="profile__prof">блог front-end разработчика</div>
+              </div>
+        
+              <ul class="social">
+                <li class="social__item">
+                  <a class="social__link" href="https://instagram.com/_web._.pro.grammer_" target="_blank">
+                    <img src="assets/images/instagram.svg" alt="Воробьёв Вячеслав instagram" />
+                  </a>
+                </li>
+                <li class="social__item">
+                  <a class="social__link" href="https://vk.com/web_programmer2020" target="_blank">
+                    <img src="assets/images/vk.svg" alt="Воробьёв Вячеслав vk" />
+                  </a>
+                </li>
+                <li class="social__item">
+                  <a class="social__link" href="https://github.com/desmond333" target="_blank">
+                    <img src="assets/images/github.svg" alt="Воробьёв Вячеслав github" />
+                  </a>
+                </li>
+              </ul>
+        
+              <div class="profile__text">
+                <p>
+                  Front-end разработчик. Практик верстки сайтов, react-developer. Мои навыки:
+                  <br />
+                  • HTML5, CSS3, кроссбраузерность и адаптивная верстка, SASS/SCSS, grid/flexbox, Gulp, БЭМ
+                  <br />
+                  • JavaScript (ES6+)
+                  <br />
+                  • React + Redux
+                  <br />
+                  • Git
+                </p>
+              </div>
+            </div>
+            <!-- /.profile -->
+        
+            <nav class="nav nav--mobile">
+              <ul class="nav__list">
+                <li class="nav__item">
+                  <a class="nav__link" href="index.html">Главная</a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link has-subnav" href="#">Статьи</a>
+        
+                  <ul class="subnav">
+                    <li>
+                      <a class="subnav__link" href="#">Создание сайтов</a>
+                    </li>
+                    <li>
+                      <a class="subnav__link" href="#">Интернет-маркетинг</a>
+                    </li>
+                    <li>
+                      <a class="subnav__link" href="#">Продвижение видео</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="text.html">Обо мне</a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="text.html">Реклама</a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="profile.html">Профиль</a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="#">Выйти</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <!-- /.sidebar__content -->
+        
+          <div class="sidebar__footer">
+            <a class="btn btn--red" href="works.html">Мои работы</a>
+            <button class="btn btn--blue" type="button" data-modal="contact-modal">Написать мне</button>
+          </div>
+        </aside>
+
+        <!-- Main -->
+        <main class="main">
+            <div class="container">
+                
+                <!-- Stories -->
+                <div class="stories">
+                    <div class="stories__item" data-modal="story-modal">
+                        <img class="stories__preview" src="assets/images/stories/stories-1.jpg" alt="">
+                        <div class="stories__title">Медитирую на природе</div>
+                        <time class="stories__date" datetime="2020-09-21 19:21">2021-02-10</time>
+                    </div>
+                
+                    <div class="stories__item" data-modal="story-modal">
+                        <img class="stories__preview" src="assets/images/stories/stories-2.jpg" alt="">
+                        <div class="stories__title">Прыгаю с парашютом</div>
+                        <time class="stories__date" datetime="2020-09-21 19:21">2020-08-25</time>
+                    </div>
+                
+                    <div class="stories__item" data-modal="story-modal">
+                        <img class="stories__preview" src="assets/images/stories/stories-3.jpg" alt="">
+                        <div class="stories__title">Я в прекрасном лесу</div>
+                        <time class="stories__date" datetime="2020-09-21 19:21">2019-07-15</time>
+                    </div>
+                
+                    <div class="stories__item" data-modal="story-modal">
+                        <img class="stories__preview" src="assets/images/stories/stories-4.jpg" alt="">
+                        <div class="stories__title">Экстремальные лыжи в горах</div>
+                        <time class="stories__date" datetime="2020-09-21 19:21">2021-01-07</time>
+                    </div>
+                </div><!-- /.stories -->
+                
+                
+                
+                <!-- Add post -->
+                <div class="add-post">
+                    <form class="add-post__form" action="/" method="post">
+                        <textarea class="add-post__textarea" name="post-text" placeholder="Напишите что-нибудь" data-autoresize></textarea>
+                
+                        <div class="add-post__form-actions">
+                            <label class="add-post__file" for="add-post-file">
+                                <input type="file" id="add-post-file">
+                            </label>
+                            <button class="add-post__send" type="submit">
+                                Отправить
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                
+                
+                
+                <div class="post">
+                    <div class="post__content">
+                        <p class="post__description">Немного знакомы с JavaScript? Возможно вы начали с HTML и CSS, а теперь хотите изучить, то как сделать ваши проекты более “живыми”? Если вы новичок в логике и программировании, то я советую начать вам с малого – меньше, чем вы думаете. Прежде всего хорошенько разберитесь с JS, только после этого изучайте React. Изучение основ может оказаться непростым занятием, поэтому не усложняйте его.</p>
+                    </div>
+                
+                    <div class="post__footer">
+                        <ul class="post__data">
+                            <li class="post__data-item">
+                                <time datetime="2020-06-21 19:20">21.02.2021</time>
+                            </li>
+                        </ul>
+                    </div>
+                </div><!-- /.post -->
+                
+                
+                <article class="post">
+                    <div class="post__header  post__header--preview">
+                        <a href="post.html">
+                            <img class="post__preview" src="assets/images/post-2.jpg" alt="Как писать код быстро и безболезненно?">
+                        </a>
+                    </div>
+                
+                    <div class="post__content">
+                        <h2 class="post__title">
+                            <a href="post.html">Как научиться писать код быстро?</a>
+                        </h2>
+                        <p class="post__description">В целом сложно представить, зачем программисту нужно быстро писать код. Гораздо важнее писать качественный, читабельный код или безопасный код, или стабильный код. Но даже если мы говорим именно о скорости написания кода, то есть несколько аспектов, о которых необходимо упомянуть.</p>
+                    </div>
+                
+                    <div class="post__footer">
+                        <ul class="post__data">
+                            <li class="post__data-item">
+                                <time datetime="2020-06-21 19:20">15.12.2020</time>
+                            </li>
+                            <li class="post__data-item">
+                                <a href="#">создание сайтов</a>
+                            </li>
+                        </ul>
+                
+                        <a class="post__read" href="post.html">читать</a>
+                    </div>
+                </article><!-- /.post -->
+                
+                
+                
+                <article class="post">
+                    <div class="post__header">
+                        <div class="embed">
+                            <iframe src="https://www.youtube.com/embed/watch?v=OTfp2_SwxHk&list=LL&index=9" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                
+                    <div class="post__content">
+                        <h2 class="post__title">
+                            <a href="https://www.youtube.com/watch?v=OTfp2_SwxHk">Если бы программирование было аниме :)</a>
+                        </h2>
+                    </div>
+                
+                    <div class="post__footer">
+                        <ul class="post__data">
+                            <li class="post__data-item">
+                                <time datetime="2020-06-21 19:20">21.11.2020</time>
+                            </li>
+                            <li class="post__data-item">
+                                <a href="#">мотивация</a>
+                            </li>
+                        </ul>
+                
+                        <a class="post__read" href="https://www.youtube.com/watch?v=OTfp2_SwxHk">оставить комментарий</a>
+                    </div>
+                </article><!-- /.post -->
+                
+                
+                
+                
+                <article class="post">
+                    <div class="post__header  post__header--preview">
+                        <a href="post.html">
+                            <img class="post__preview" src="assets/images/post-3.jpg" alt="Как я сходил на FrontEnd Conf 2021">
+                        </a>
+                    </div>
+                
+                    <div class="post__content">
+                        <h2 class="post__title">
+                            <a href="post.html">В Питер навсегда: как переехать, найти работу и не пожалеть</a>
+                        </h2>
+                        <p class="post__description">Два года назад я окончательно переехал в Питер и ни разу об этом не пожалел. Как так получилось, ведь многие, едва вкусив соленого воздуха Северной столицы, сбегают, наплевав на свои желания и амбиции? Расскажу обо всем по порядку!</p>
+                    </div>
+                
+                    <div class="post__footer">
+                        <ul class="post__data">
+                            <li class="post__data-item">
+                                <time datetime="2020-06-21 19:20">30.09.2020</time>
+                            </li>
+                            <li class="post__data-item">
+                                <a href="#">релокейт</a>
+                            </li>
+                        </ul>
+                
+                        <a class="post__read" href="post.html">читать</a>
+                    </div>
+                </article><!-- /.post -->
+                
+                
+                <!-- Pagination -->
+                <ul class="pagination">
+                    <li class="pagination__item">
+                        <a class="pagination__link" href="#">&lt;</a>
+                    </li>
+                    <li class="pagination__item">
+                        <a class="pagination__link  active" href="#">1</a>
+                    </li>
+                    <li class="pagination__item">
+                        <a class="pagination__link" href="#">2</a>
+                    </li>
+                    <li class="pagination__item">
+                        <a class="pagination__link" href="#">3</a>
+                    </li>
+                    <li class="pagination__item">
+                        <a class="pagination__link" href="#">&gt;</a>
+                    </li>
+                </ul
+                
+                
+                
+            </div>
+        </main>
+    </div>
+
+
+    <div class="modal" id="story-modal">
+        <div class="modal__content  modal__content--story">
+            <video class="modal__video" src="" poster="../assets/images/stories/stories-video-modal.png"></video>
+        </div>
+    </div>
+    <div class="modal" id="contact-modal">
+        <div class="modal__content  modal__content--contact">
+            <button class="modal__close" type="button">
+                <img src="assets/images/close.svg" alt="Закрыть">
+            </button>
+    
+            <form class="form" action="/" method="post">
+                <div class="form__group  form__group--md">
+                    <input class="form__control" type="text" placeholder="Ваше имя">
+                    <span class="form__line"></span>
+                </div>
+    
+                <div class="form__group  form__group--md">
+                    <input class="form__control" type="email" placeholder="Ваш e-mail">
+                    <span class="form__line"></span>
+                </div>
+    
+                <div class="form__group  form__group--md">
+                    <textarea class="form__control  form__control--textarea" placeholder="Текст сообщения"></textarea>
+                    <span class="form__line"></span>
+                </div>
+    
+                <div class="form__footer">
+                    <div class="form__group  form__group--md">
+                        <button class="btn  btn--blue  btn--rounded  btn--sm" type="submit">Отправить</button>
+                    </div>
+                </div>
+            </form>
+    
+            <ul class="modal__footer">
+                <li>
+                    e-mail: <a href="my_post_office1@mail.ru">my_post_office1@mail.ru</a>
+                </li>
+                <li>
+                    тел: <a href="tel:89029472557">8 902 947 25 57</a>
+                </li>
+            </ul>
+        </div><!-- /.modal__content -->
+    </div><!-- /.modal -->
+    <div class="modal">
+        <div class="modal__content">
+            <button class="modal__close" type="button">
+                <img src="assets/images/close.svg" alt="Закрыть">
+            </button>
+    
+            <ul class="social">
+                <li class="social__item">
+                    <a class="social__link" href="#">
+                        <img src="assets/images/share/facebook.svg" alt="">
+                    </a>
+                </li>
+    
+                <li class="social__item">
+                    <a class="social__link" href="#">
+                        <img src="assets/images/share/twitter.svg" alt="">
+                    </a>
+                </li>
+    
+                <li class="social__item">
+                    <a class="social__link" href="#">
+                        <img src="assets/images/share/vk.svg" alt="">
+                    </a>
+                </li>
+    
+                <li class="social__item">
+                    <a class="social__link" href="#">
+                        <img src="assets/images/share/copy.svg" alt="">
+                    </a>
+                </li>
+            </ul>
+    
+        </div><!-- /.modal__content -->
+    </div><!-- /.modal -->
+    
+    
+
+    <!-- JS -->
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
