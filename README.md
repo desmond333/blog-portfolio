@@ -12,4 +12,5 @@
 
 ### You can run this project locally, just open `index.html` in browser.
 
-![Home — Firefox Developer Edition](https://user-images.githubusercontent.com/67102520/115782969-f5f00f00-a3c4-11eb-861f-ead4971b92e6.png)
+![portfolio_blog](https://user-images.githubusercontent.com/67102520/120905607-e0c0fe00-c65b-11eb-8d42-9f783373f7c8.gif)
+
