@@ -2,7 +2,7 @@
 
 ### To see this project you need to click on the [link](https://desmond333.github.io/blog_portfolio/)
 
-### Well, just as much as a portfolio is about demonstrating your skills, it’s about showing who you are. People follow your blog because they appreciate your content. Recruiters hire you because they think that you as a person would fit their culture. Not just because you demonstrate excellent technical skills.
+### Well, just as much as a portfolio is about demonstrating your skills, it’s about showing who you are. People follow your blog because they appreciate your content. Recruiters hire you because they think that you as a person would fit their culture.
 
 ### During the development of this app I mastered:
 - something in CSS
